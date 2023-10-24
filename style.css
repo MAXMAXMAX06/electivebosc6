@@ -1,0 +1,77 @@
+body {
+	font-family: Gill Sans, sans-serif;
+	background-color: black;
+	text-align: center;
+	font-family: 'roboto', sans-serif;
+	
+}
+h1{
+	color: black;
+}
+h2{
+	color: black;
+	font-family: cursive, sans-serif;
+}
+
+.container {
+	width: 670px;
+	margin: 0 auto;
+}
+
+.image-principale {
+	max-width: 670px;
+	background-image: url("./images/ehl_entrance.jpg");
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+
+.card-white{
+	background-color: grey;
+	padding: 40px;
+	box-shadow: 10px 30px rgb(0, 0, 0/10%);
+	border-radius: 4px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.btn-blue{
+	background-color: cornflowerblue;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	color: white;
+	transition: opacity 0.4s ease-in-out;
+}
+a{
+	text-decoration: none;
+}
+.list-inline{
+	list-style: none;
+	padding: 0
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #e6e6e6;
+    transition: color .3s ease;
+}
+.list-inline i:hover {
+	color: black;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10;
+	margin: 0 16px;
+}
+
+img{
+	width: 200px;
+	border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+	.card-white {
+		background-color: #758C77;
+	}
